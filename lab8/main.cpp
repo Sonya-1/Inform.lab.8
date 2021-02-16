@@ -1,11 +1,9 @@
 #define _CRT_SECURE_NO_WARNINGS
-#define _USE_MATH_DEFINES
 #include <stdio.h>
-#include <math.h>
 #include "integr.h"
 
 int main() {
-    double x1 = 0, x2 = M_PI/3, eps;
+    double x1 = 0.5, x2 = 0.8, eps;
     printf("Input eps: ");
 
     long sf_res = scanf("%lf", &eps);
